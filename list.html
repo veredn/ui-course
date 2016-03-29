@@ -1,0 +1,163 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+<link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+
+    <style>
+
+.MyList *,
+.MyList--cards * {
+  font-family: Open Sans;
+}
+
+.MyList li,
+.MyList--cards li {
+  position: relative;
+  border: 1px solid #C8D7E6;
+;
+
+  list-style: none;
+  margin-bottom: 8px;
+  border-radius: 5px;
+}
+
+.MyList li {
+    /*width: 400px;*/
+    padding: 0;
+    /*padding-right: 50px;*/
+}
+
+.MyList--cards li {
+  display: inline-block;
+  width: 200px;
+  height: 300px;
+  vertical-align: top;
+}
+
+
+.MyList--cards .item-content {
+  padding: 16px;
+}
+
+.MyList .item-content {
+    padding: 0 16px;
+    display: inline-block;
+    width: 60%;
+}
+
+.MyList .item-title,
+.MyList--cards .item-title {
+  font-weight: bold;
+  font-size: 1.3em;
+  background-color: #C8D7E6;
+}
+
+.MyList .item-title {
+  width: 10%;
+  min-width: 200px;
+  padding: 16px;
+  border-radius: 4px 0 0 4px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.MyList--cards .item-title {
+  border-radius: 4px 4px 0 0;
+  padding: 16px;
+}
+
+.MyList--cards .item-title {
+  margin-bottom: 8px;
+}
+
+.MyList--cards .item-title,
+.MyList--cards .item-desc {
+  display: block;
+}
+
+.MyList .item-title,
+.MyList .item-desc,
+.MyList--cards .item-title {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.MyList .item-desc {
+  width: 90%;
+  display: inline-block;
+}
+.MyList--cards .item-desc {
+  overflow: auto;
+  max-height: 140px;
+}
+
+.MyList .item-button,
+.MyList--cards .item-button {
+    position: absolute;
+}
+
+.MyList .item-button {
+  right: 16px;
+  top: 16px;
+}
+
+.MyList--cards .item-button {
+  bottom: 16px;
+}
+
+.MyList--cards .item-footer {
+  font-size: 0.8em;
+  margin-top: 8px;
+  color: #666;
+}
+
+.MyList .item-footer {
+  display: none;
+}
+
+    </style>
+
+  </head>
+  <body>
+
+<ul class="MyList">
+  <li>
+    <span class="item-title" title="Name">Name</span>
+    <div class="item-content">
+      <span class="item-desc">description lslslsl</span>
+      <div class="item-footer"> small footer</div>
+      <button class="item-button">Click</button>
+    </div>
+  </li>
+  <li>
+    <span class="item-title" title="Name dkdkkdffh fdghsjfk fkhgfj">Name dkdkkdffh fdghsjfk fkhgfj</span>
+    <div class="item-content">
+    <span class="item-desc">description edyufagaey sadfgadsf aetryea dshfayre aewytry3gda dfhsakehf fffjfjfj lslslsl aetryea dshfayre aewytry3gda dfhsakehf fffjfjfj </span>
+    <div class="item-footer"> small footer</div>
+    <button class="item-button">Click</button>
+  </div>
+  </li>
+  <li>
+    <span class="item-title" title="Name aaaa">Name aaaa</span>
+    <div class="item-content">
+    <span class="item-desc">description lslslsl jkjkkkskssk</span>
+    <div class="item-footer"> small footer</div>
+    <button class="item-button">Click</button>
+  </div>
+  </li>
+  <li>
+    <span class="item-title" title="Name cvcvcvcv">Name cvcvcvcv</span>
+    <div class="item-content">
+    <span class="item-desc">description fgfssjjsj</span>
+    <div class="item-footer"> small footer</div>
+    <button class="item-button">Click</button>
+  </div>
+  </li>
+</ul>
+
+  </body>
+</html>
